@@ -24,3 +24,11 @@ PgDn::Send "{Media_Play_Pause}"
 ^+t:: {
     WinSetAlwaysOnTop -1, "A"
 }
+
+~MButton & WheelUp:: {
+    SoundSetVolume "+5"   ; increase by 2%
+}
+
+~MButton & WheelDown:: {
+    SoundSetVolume "-5"   ; decrease by 2%
+}
